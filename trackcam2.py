@@ -49,7 +49,7 @@ from sender.szmq import ZmqLogger
 
 @torch.no_grad()
 def run(
-        source='cam3.mp4',
+        source='sc2.mp4',
         yolo_weights=WEIGHTS / 'yolov8n.pt',
         reid_weights=WEIGHTS / 'osnet_x0_25_msmt17.pt',
         tracking_method='strongsort',

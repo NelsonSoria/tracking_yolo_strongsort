@@ -48,7 +48,7 @@ from sender.szmq import ZmqLogger
 
 @torch.no_grad()
 def run(
-        source='voli.mp4',
+        source='http://192.168.100.2:4747',
         yolo_weights=WEIGHTS / 'yolov8n.pt',
         reid_weights=WEIGHTS / 'osnet_x1_0_msmt17.pt',
         tracking_method='strongsort',
